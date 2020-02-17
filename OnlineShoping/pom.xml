@@ -14,22 +14,28 @@
 	</properties>
 
 	<dependencies>
-    <!-- spring-webmvc -->
-<dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-webmvc</artifactId>
-    <version>${spring.version}</version>
-</dependency>
-   <!-- jstl -->
-<dependency>
-    <groupId>jstl</groupId>
-    <artifactId>jstl</artifactId>
-    <version>1.2</version>
-</dependency>
-    
+		<!-- OnlineShopingBackend -->
+		<dependency>
+			<groupId>net.app</groupId>
+			<artifactId>OnlineShopingBackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- spring-webmvc -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<!-- jstl -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
-		
+
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
 			<version>${javaee.version}</version>
@@ -43,7 +49,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-	<!-- update latest version of java -->
+		<!-- update latest version of java -->
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>

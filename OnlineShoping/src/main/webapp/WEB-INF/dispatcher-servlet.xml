@@ -12,6 +12,8 @@ xmlns:mvc="http://www.springframework.org/schema/mvc"
    ">
    
    <context:component-scan base-package="net.app.OnlineShoping.controller"></context:component-scan>
+     <context:component-scan base-package="net.app.OnlineShopingBackend.daoIml"></context:component-scan>
+   
    <bean id="viewresolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
    
    <property name="prefix" value="/WEB-INF/views/"/>

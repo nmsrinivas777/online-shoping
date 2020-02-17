@@ -55,6 +55,11 @@
 			<c:if test="${UserClickContact==true}">
 				<%@include file="./contact.jsp"%>
 			</c:if>
+			
+			<!-- -->
+			<c:if test="${UserClicklistProducts==true or UserClickCategory==true}">
+				<%@include file="./viewproducts.jsp"%>
+			</c:if>
 		</div>
 		<!-- /.container -->
 
@@ -67,7 +72,7 @@
 		<script src="${js}/bootstrap.bundle.min.js"></script>
 
 		<!-- self JavaScript -->
-		<script src="${js}/myapp.js"></script>
+		<script src="${js}/activetab.js"></script>
 
 	</div>
 </body>
